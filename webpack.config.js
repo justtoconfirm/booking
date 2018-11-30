@@ -5,7 +5,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
 	//entry: { main: './src/index.js' },
 	entry: [
-		'./src/index.js',
+		'./src/js/index.js',
 		'./src/scss/test.scss'		// Possible Hack
 	],
 	output: {
