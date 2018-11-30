@@ -6,11 +6,11 @@ module.exports = {
 	//entry: { main: './src/index.js' },
 	entry: [
 		'./src/index.js',
-		'./src/test.scss'		// Possible Hack
+		'./src/scss/test.scss'		// Possible Hack
 	],
 	output: {
 		path: path.resolve(__dirname, 'dist'),
-		filename: 'main.js'
+		filename: 'scripts/main.js'
 	},
 	module: {
 		rules: [
@@ -33,7 +33,7 @@ module.exports = {
 	},
 	plugins: [
 		new ExtractTextPlugin({
-			filename: 'style.css'
+			filename: 'styles/style.css'
 		}),
 		new HtmlWebpackPlugin({
 			inject: false,
