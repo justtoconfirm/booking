@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("console.log('Hello, World');\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("console.log('Hello, World'); // ES6\n\nvar multiplyES6 = function multiplyES6(x, y) {\n  return x * y;\n};\n\nmultiplyES6(4, 6);\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 
