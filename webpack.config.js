@@ -3,7 +3,11 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-	entry: { main: './src/index.js' },
+	//entry: { main: './src/index.js' },
+	entry: [
+		'./src/index.js',
+		'./src/test.scss'		// Possible Hack
+	],
 	output: {
 		path: path.resolve(__dirname, 'dist'),
 		filename: 'main.js'
