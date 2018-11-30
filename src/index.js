@@ -1,6 +1,7 @@
-console.log('Hello, World');
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-// ES6
-const multiplyES6 = (x, y) => { return x * y };
-
-multiplyES6(4, 6);
+ReactDOM.render(
+	<h1>Hello, World</h1>,
+	document.getElementById('app')
+);
