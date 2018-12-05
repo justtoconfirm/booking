@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/js/index.js");
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -239,28 +239,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _components_Button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/Button */ \"./src/js/components/Button.js\");\n\n\n\nreact_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Button__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null), document.getElementById('app'));\n\n//# sourceURL=webpack:///./src/js/index.js?");
-
-/***/ }),
-
-/***/ "./src/scss/test.scss":
-/*!****************************!*\
-  !*** ./src/scss/test.scss ***!
-  \****************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-eval("// removed by extract-text-webpack-plugin\n\n//# sourceURL=webpack:///./src/scss/test.scss?");
-
-/***/ }),
-
-/***/ 0:
-/*!****************************************************!*\
-  !*** multi ./src/js/index.js ./src/scss/test.scss ***!
-  \****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("__webpack_require__(/*! ./src/js/index.js */\"./src/js/index.js\");\nmodule.exports = __webpack_require__(/*! ./src/scss/test.scss */\"./src/scss/test.scss\");\n\n\n//# sourceURL=webpack:///multi_./src/js/index.js_./src/scss/test.scss?");
 
 /***/ })
 

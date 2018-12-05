@@ -1,2 +1,8 @@
 .test-class {
-  color: #00ff00; }
+  color: #00ff00;
+}
+
+.dan {
+  color: #00ff00;
+  background-color: red;
+}
