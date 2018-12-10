@@ -6,7 +6,7 @@ class Users extends React.Component {
     return (
     	<div>
     		<h1>Users</h1>
-    		<Button theme="primary">Button</Button>
+    		<Button theme="primary">Test</Button>
     	</div>
     )
   }
