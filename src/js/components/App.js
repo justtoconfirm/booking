@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom'
-import Navigation from './2-molecules/navigation/Navigation'
+import Header from './3-organisms/header/Header'
 import Home from './5-pages/Home'
 import Users from './5-pages/Users'
 import Contact from './5-pages/Contact'
@@ -11,7 +11,7 @@ const App = () => {
 	return (
 		<Router>
 			<React.Fragment>
-				<Navigation />
+				<Header />
 				<Switch>
 					<Route exact path="/" component={Home} />
 					<Route path="/users" component={Users} />
