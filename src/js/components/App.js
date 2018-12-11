@@ -6,6 +6,7 @@ import Home from './5-pages/Home'
 import Users from './5-pages/Users'
 import Contact from './5-pages/Contact'
 import Notfound from './5-pages/Notfound'
+import Footer from './3-organisms/footer/Footer'
 
 const App = () => {
 	return (
@@ -18,6 +19,7 @@ const App = () => {
 					<Route path="/contact" component={Contact} />
 					<Route component={Notfound} />
 				</Switch>
+				<Footer />
 			</React.Fragment>
 		</Router>
 	)
