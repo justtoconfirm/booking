@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-const Header = () => {
+const Footer = () => {
 	return (
 		<footer>
 			<div>Footer</div>
@@ -9,4 +9,4 @@ const Header = () => {
 	)
 }
 
-export default Header
+export default Footer
