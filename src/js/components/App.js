@@ -10,7 +10,7 @@ import Notfound from './5-pages/Notfound'
 const App = () => {
 	return (
 		<Router>
-			<div>
+			<React.Fragment>
 				<Navigation />
 				<Switch>
 					<Route exact path="/" component={Home} />
@@ -18,7 +18,7 @@ const App = () => {
 					<Route path="/contact" component={Contact} />
 					<Route component={Notfound} />
 				</Switch>
-			</div>
+			</React.Fragment>
 		</Router>
 	)
 }
