@@ -7,6 +7,12 @@ $ cd booking
 $ npm install
 ```
 
+## Running Tests
+
+```
+$ npm run test
+```
+
 ## Server
 
 ```
