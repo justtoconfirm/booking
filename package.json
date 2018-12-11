@@ -36,6 +36,8 @@
     "babel-loader": "^8.0.4",
     "beautify-css": "^1.0.0",
     "css-loader": "^1.0.1",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.7.1",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "html-webpack-plugin": "^3.2.0",
     "jest": "^23.6.0",
