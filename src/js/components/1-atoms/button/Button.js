@@ -1,7 +1,10 @@
+// @flow
+
 import React from 'react'
 import classNames from 'classnames'
+import type { ButtonType } from './Button.types'
 
-const Button = ({ type = 'button', url = '', className = '', theme = '', children }) => {
+const Button = ({ type = 'button', url = '', className = '', theme = '', children }: ButtonType) => {
 
 	const buttonClass = classNames('btn', className, {
 		'btn--primary': theme === 'primary',
