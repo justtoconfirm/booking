@@ -1,10 +1,5 @@
-$test: #00ff00;
+// Utilities
+@import 'util/reset';
 
-.test-class {
-	color: $test;
-}
-
-.dan {
-	color: $test;
-	background-color: red;
-}
+// Atoms
+@import 'atomic/1-atoms/buttons/button';
