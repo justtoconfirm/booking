@@ -9,7 +9,8 @@
     "compile-scss": "node-sass --include-path scss src/scss/main.scss dist/styles/style.css",
     "beautify-css": "beautify-css dist/styles/style.css dist/styles/style.css",
     "minify-css": "sqwish dist/styles/style.css -o dist/styles/style.min.css",
-    "test": "jest"
+    "test": "jest",
+    "flow": "flow"
   },
   "repository": {
     "type": "git",
