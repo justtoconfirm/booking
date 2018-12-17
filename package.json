@@ -22,7 +22,8 @@
     "url": "https://github.com/justtoconfirm/booking/issues"
   },
   "jest": {
-    "setupTestFrameworkScriptFile": "<rootDir>/src/js/setupTests.js"
+    "setupTestFrameworkScriptFile": "<rootDir>/src/js/setupTests.js",
+    "snapshotSerializers": ["enzyme-to-json/serializer"]
   },
   "homepage": "https://github.com/justtoconfirm/booking#readme",
   "dependencies": {
